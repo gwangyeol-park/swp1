@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from template import html
 
 
+
 def application(environ, start_response):
     if environ['PATH_INFO'] == '/img/graph.png':
         try:
